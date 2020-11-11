@@ -49,6 +49,7 @@
 		}else if(sum>standard&&sum<=8000){
 			m=standard*0.03;
    > * 根据国家最新纳税标准通过使用if()else{}语句实现算法，并且将标准工资定义为static final类型   
+   
 2.在Test类中定义方法exPeriment(DoctoralCandidate DC)，参数为**博士研究生**类的一个对象。此方法实现获取用户的基本信息。使用Scanner类实现扫描控制台，通过XX.nextXX()读取控制台输入的内容。最后通过System.outXXX输出语句调用yearPay()、yearFee()、earnings()和tax()输出基本信息和纳税额。<br/>
 
     Scanner sc=new Scanner(System.in);
@@ -59,6 +60,7 @@
     DC.pay=sc.nextFloat();
     DC.fee=sc.nextFloat();
    > * 需要注意的是读取年薪pay和每年学费fee时需要nextFloat，否则键盘输入float型数字，Scanner读取控制台内容时会出错。因为接口中定义的年薪和学费为float类型。<br/>
+   
 3.由于键盘键入信息时，属性有数据类型的限制，所以main方法中使用try()catch(){}语句进行异常捕获。将实例化的两个对象通过参数传值给对象T调用的exPeriment()方法。<br/>
 
     try{
