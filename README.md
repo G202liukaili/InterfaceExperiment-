@@ -32,8 +32,7 @@
       T.exPeriment(dc1);
       T.exPeriment(dc2);
       
- ### 四、核心代码
-      
+ ### 四、核心代码     
 1.在Test类中定义计算年薪的方法yearPay()、计算每年学费的方法yearFee()和计算研究生每年总收益的方法earnings()以及计算每年纳税额的方法tax()。<br/>
 
     float earnings(float yp,float yf){
@@ -72,3 +71,9 @@
 		}
     
 ### 五、系统运行截图
+![images](https://github.com/G202liukaili/InterfaceExperiment-/blob/main/images/IE.jpg)
+### 六、实验感想
+1.对抽象类的应用不熟练，原本想将博士研究生类定义成抽象类，但是未能实现。<br/>
+2.理解了接口的定义形式。<br/>
+3.更进一步地学习了Scanner类的应用以及一些小知识点，例如：将一个类的对象传值给方法的参数......<br/>
+4.学习了try()catch(){}异常捕获方法，Exception 覆盖所有异常类型，需要注意书写顺序。<br/>
